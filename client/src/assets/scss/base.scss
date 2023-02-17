@@ -1,0 +1,38 @@
+@import "./form";
+
+.notification {
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    color: white;
+    font-weight: 900;
+    padding: 0.75rem 2rem;
+    background: rgb(80, 214, 105);
+}
+
+.fade-in-out {
+    animation: fadeInOut 2s linear 1 forwards;
+}
+
+.nav-links {
+  color: white;
+  display: block;
+  margin: 1rem auto;
+  width: fit-content;
+
+  &:hover {
+    color: rgb(204, 203, 203);
+  }
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

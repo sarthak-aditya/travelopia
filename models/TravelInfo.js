@@ -14,11 +14,11 @@ const infoSchema = new Schema({
         type: String,
         required: true
     },
-    numberOfTravelers: {
+    numberOfTravellers: {
         type: Number,
         required: true
     },
-    budget: {
+    budgetPerPerson: {
         type: Number,
         required: true
     }

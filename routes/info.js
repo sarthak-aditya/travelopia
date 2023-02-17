@@ -18,10 +18,7 @@ router.get('/', async (req, res) => {
 // @desc Add an entry to DB
 // @access Public
 router.post('/addInfo', async (req, res) => {
-    const info = new TravelInfo({
-        name: req.body.name
-    })
-
+    const info = new TravelInfo(req.body)
     await info.save()
     return res.status(200).send({
         success: true,

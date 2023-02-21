@@ -5,7 +5,6 @@
 - Express
 - React
 - Node
-- matplotlib
 
 ## How to run:
 ```bash
